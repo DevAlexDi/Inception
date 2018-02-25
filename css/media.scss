@@ -1,5 +1,5 @@
 @media (max-width: 1400px) {
-    .abs-cube-3{
+    .abs-cube-3 {
         height: 600px;
         width: 600px;
         top: 800px;
@@ -7,47 +7,47 @@
 }
 
 @media (max-width: 1300px) {
-    .sec-lines .flex-contant .side.right-side .phone-wrapp{
+    .sec-lines .flex-contant .side.right-side .phone-wrapp {
         width: 700px;
     }
 }
 
 @media (max-width: 1199px) {
-    .show-wr{
-            width: 280px;
-    
-    height: 280px;
+    .show-wr {
+        width: 280px;
+
+        height: 280px;
     }
     .sec-lines .flex-contant .side.right-side .phone-wrapp {
-    width: 562px;
-}
-    
-    
-    
-    
+        width: 562px;
+    }
+
+
+
+
 }
 
 @media (max-width: 991px) {
-    .footer{
+    .footer {
         position: relative;
-        
+
     }
-    .footer-form{
+    .footer-form {
         margin-bottom: 0;
     }
-    .main-baner .body-baner .flex-form{
-        display: block;
+    .main-baner .body-baner .flex-form {
+        flex-direction: column-reverse;
     }
-    .main-baner .body-baner .flex-form .left-side{
-            margin-bottom: 65px;
+    .main-baner .body-baner .flex-form .left-side {
+        margin-bottom: 0;
     }
-    .main-baner .body-baner .flex-form .right-side .form-wrapp{
+    .main-baner .body-baner .flex-form .right-side .form-wrapp {
         width: 100%;
     }
-    .main-baner .body-baner .desc{
-        margin-bottom: 45px;
+    .main-baner .body-baner .desc {
+        margin-bottom: 100px;
     }
-    .sec-developing .for-flex-columns .side{
+    .sec-developing .for-flex-columns .side {
         width: 50%;
     }
     .sec-lines .flex-contant .side.right-side .phone-wrapp {
@@ -60,255 +60,229 @@
         top: 129px;
         left: 0;
     }
-    .sec-lines{
+    .sec-lines {
         min-height: 615px;
     }
     .abs-cube-3 {
-    
+
         top: auto;
         bottom: -161px;
     }
-}
-@media (max-width: 767px) {
-    .main-baner .head-baner .abs-nav{
-        flex-direction: column;
-        
+    .main-baner .body-baner .flex-form .right-side {
+        margin-bottom: 50px;
     }
-    .main-baner .head-baner .abs-nav .left-side .name{
+}
+
+@media (max-width: 767px) {
+    .main-baner .head-baner .abs-nav {
+        flex-direction: column;
+
+    }
+    .main-baner .head-baner .abs-nav .left-side .name {
         margin-bottom: 12px;
     }
-    .main-baner .show-wr{
+    .main-baner .show-wr {
         display: none;
     }
-    .main-baner .body-baner .main-baner-text{
+    .main-baner .body-baner .main-baner-text {
         font-size: 28px;
     }
-    .main-baner .body-baner .flex-form .right-side .form-wrapp .skew-wr{
+    .main-baner .body-baner .flex-form .right-side .form-wrapp .skew-wr {
         width: 100%;
     }
-    .main-baner .body-baner .flex-form .right-side .form-wrapp .skew-wr:before{
+    .main-baner .body-baner .flex-form .right-side .form-wrapp .skew-wr:before {
         display: none;
     }
-    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr{
+    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr {
         border-top-left-radius: 0;
     }
-    
-    .main-baner .body-baner .flex-form .right-side .form-wrapp .skew-wr p{
+
+    .main-baner .body-baner .flex-form .right-side .form-wrapp .skew-wr p {
         padding-right: 0;
     }
-    
+
     .main-baner .body-baner .desc {
-    margin-bottom: 30px;
-}
+        margin-bottom: 100px;
+    }
+
     .main-baner .body-baner .flex-form .left-side {
-    margin-bottom: 85px;
-}
-    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr .form-body {
-    display: flex;
-    padding: 0;
-}
-    
-    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr .form-body input{
-        font-size: 12.5px;
-    }
-    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr .form-body button{
-        font-size: 14px;
-    }
-    .main-baner .body-baner .flex-form{
         margin-bottom: 0;
     }
-    .sec-developing .head-sec{
+    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr .form-body {
+        display: flex;
+        padding: 0;
+    }
+
+    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr .form-body input {
+        font-size: 12.5px;
+    }
+    .main-baner .body-baner .flex-form .right-side .form-wrapp .form-body-wr .form-body button {
+        font-size: 14px;
+    }
+    .main-baner .body-baner .flex-form {
+        margin-bottom: 0;
+    }
+    .sec-developing .head-sec {
         font-size: 30px;
     }
-    
-    
-    .sec-developing .for-flex-columns .side{
+
+
+    .sec-developing .for-flex-columns .side {
         width: 100%;
     }
-    .sec-developing .head-sec{
+    .sec-developing .head-sec {
         margin-bottom: 60px;
     }
-    .sec-developing .for-flex-columns .side{
+    .sec-developing .for-flex-columns .side {
         margin-bottom: 30px;
     }
-    .abs-cube-2{
+    .abs-cube-2 {
         display: none;
     }
-    .sec-lines .flex-contant .side.left-side{
+    .sec-lines .flex-contant .side.left-side {
         padding-right: 0;
     }
-    .sec-lines .flex-contant{
+    .sec-lines .flex-contant {
         flex-direction: column-reverse;
     }
-    .sec-lines .flex-contant .side.right-side .phone-wrapp{
+    .sec-lines .flex-contant .side.right-side .phone-wrapp {
         width: 100%;
         top: 0;
         transform: none!important;
     }
-    .sec-lines .head{
+    .sec-lines .head {
         margin-bottom: 30px;
     }
-    
+
     .sec-lines .abs-lines {
-    background-size: 767px;
-    height: 292px;
+        background-size: 767px;
+        height: 292px;
         top: 60px;
-   
-}
-    .sec-lines .flex-contant .side.right-side .phone-wrapp{
+
+    }
+    .sec-lines .flex-contant .side.right-side .phone-wrapp {
         margin-bottom: 40px;
     }
-    .sec-lines .flex-contant .side.left-side p.head-l-s{
+    .sec-lines .flex-contant .side.left-side p.head-l-s {
         font-size: 18px;
     }
-    
-    .sec-lines .flex-contant .side.left-side p{
+
+    .sec-lines .flex-contant .side.left-side p {
         font-size: 14px;
     }
     .sec-team {
         padding-top: 60px;
     }
-    .sec-lines .head{
+    .sec-lines .head {
         font-size: 30px;
     }
-    
+
     .sec-lines .flex-contant .side.right-side .phone-wrapp {
         max-width: 400px;
         margin: 0 auto 30px auto;
     }
-    
-    .sec-team .head{
+
+    .sec-team .head {
         font-size: 30px;
     }
-    .sec-team .sec-head{
+    .sec-team .sec-head {
         font-size: 15px;
-            margin: 0 auto 50px auto;
+        margin: 0 auto 50px auto;
     }
-    .sec-team .one-teammate-wr .desc{
-        min-height:inherit;
+    .sec-team .one-teammate-wr .desc {
+        min-height: inherit;
     }
-    .sec-team .one-teammate-wr .desc p{
+    .sec-team .one-teammate-wr .desc p {
         margin-bottom: 20px;
     }
-    .abs-cube-3{
+    .abs-cube-3 {
         display: none;
     }
-    .sec-team{
+    .sec-team {
         padding-bottom: 40px;
     }
-    .footer-form .f-m-w-footer h5{
+    .footer-form .f-m-w-footer h5 {
         font-size: 30px;
         line-height: 37px;
     }
-    .footer-form .f-m-w-footer form{
+    .footer-form .f-m-w-footer form {
         display: block;
         max-width: 290px;
         margin: 0 auto 30px auto;
-        
+
     }
-    .footer-form .f-m-w-footer form input{
+    .footer-form .f-m-w-footer form input {
         width: 100%;
         margin-bottom: 10px;
     }
-    .footer-form .f-m-w-footer form button{
+    .footer-form .f-m-w-footer form button {
         padding: 17px 0;
     }
-    .footer-form .f-m-w-footer p{
+    .footer-form .f-m-w-footer p {
         font-size: 16px;
     }
-    .footer-form{
+    .footer-form {
         padding: 60px 0 60px 0;
     }
-    .footer .m-w-1{
+    .footer .m-w-1 {
         flex-wrap: wrap;
     }
-    
-    .footer .m-w-1 .copyright-t{
+
+    .footer .m-w-1 .copyright-t {
         order: 5;
         width: 100%;
         text-align: center;
-       
+
     }
-    .footer .m-w-1 .contact{
+    .footer .m-w-1 .contact {
         width: 100%;
         text-align: center;
-         margin-bottom: 10px;
-      
+        margin-bottom: 10px;
+
     }
-    .footer .m-w-1 .right-side{
+    .footer .m-w-1 .right-side {
         width: 100%;
         justify-content: center;
-          margin-bottom: 10px;
+        margin-bottom: 10px;
     }
-    
-    
-    
-    
-    
-    
-    
+
+    .main-baner .body-baner .flex-form .right-side {
+        margin-bottom: 45px;
+    }
+
     /*disable animations*/
-    .main-baner .body-baner .logo{
+    .main-baner .body-baner .logo {
         opacity: 1;
         transform: none;
     }
-    .main-baner .body-baner .main-baner-text{
-         opacity: 1;
-        transform: none;
-    }
-    .main-baner .body-baner .desc{
+    .main-baner .body-baner .main-baner-text {
         opacity: 1;
         transform: none;
     }
-    .main-baner .body-baner .flex-form{
+    .main-baner .body-baner .desc {
         opacity: 1;
         transform: none;
     }
-    
-    .sec-developing .head-sec{
+    .main-baner .body-baner .flex-form {
         opacity: 1;
         transform: none;
     }
-    .sec-developing .for-flex-columns .side{
-         opacity: 1;
-        transform: none;
-    }
-    .sec-lines .head{
+
+    .sec-developing .head-sec {
         opacity: 1;
         transform: none;
     }
-    .sec-lines .flex-contant .left-side{
+    .sec-developing .for-flex-columns .side {
         opacity: 1;
         transform: none;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    .sec-lines .head {
+        opacity: 1;
+        transform: none;
+    }
+    .sec-lines .flex-contant .left-side {
+        opacity: 1;
+        transform: none;
+    }
+
 }
