@@ -1,11 +1,17 @@
 @font-face {
     font-family: Arvo-Regular;
-    src: url(../fonts/Arvo-Regular.ttf);
+    src: url(../fonts/Arvo.eot);
+    src: local('☺'), url('../fonts/Arvo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: Arvo-Bold;
-    src: url(../fonts/Arvo-Bold.ttf);
+    src: url(../fonts/Arvo-Bold.eot);
+    src: local('☺'), url('../fonts/Arvo-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -17,6 +23,13 @@
     font-family: RobotoRegular;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+
+
+
+
+
+
+
 
 body {
     font-family: PtSansReg;
